@@ -1,0 +1,425 @@
+/********************* FUENTES ***************/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    text-shadow: none !important;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.ui-navbar a {
+    font-size: 11px !important;
+    border: none !important;
+}
+
+
+
+
+.ui-footer {
+    box-shadow: 0px 2px 32px 0px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: 0px 2px 32px 0px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 0px 2px 32px 0px rgba(0, 0, 0, 0.67);
+}
+
+/************** ICONOS NAVBAR ************/
+
+.nav-glyphish-example .ui-btn {
+    padding-top: 40px !important;
+}
+
+
+
+.nav-glyphish-example .ui-btn:after {
+    width: 25px !important;
+    height: 25px !important;
+    margin-top: 4px !important;
+    margin-left: -12px !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.boton_back {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 5px;
+    border: 0 !important;
+    box-shadow: none !important;
+
+}
+
+
+.ui-icon-back:after {
+    background-image: url(images/back.svg);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ui-icon-sobremi:after {
+    background-image: url(images/sobremi.svg);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ui-icon-conocimientos:after {
+    background-image: url(images/conocimientos.svg);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ui-icon-portfolio:after {
+    background-image: url(images/portfolio.svg);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ui-icon-contacto:after {
+    background-image: url(images/contacto.svg);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+/**************************** header *******************************/
+
+
+.ui-header {
+    background-color: transparent !important;
+    border: 0px;
+    color: white !important;
+    padding: 10px 0px;
+    font-weight: 800 !important;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 1px 3px 32px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 1px 3px 32px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 1px 3px 32px 0px rgba(0, 0, 0, 0.18);
+
+}
+
+
+
+
+/************ ************** footer ********************************/
+.ui-footer {
+    border: 0px;
+    background-color: transparent !important;
+    border-radius: 50px !important;
+
+}
+
+.ui-footer a {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+
+
+
+
+/******************************************** SOBRE MI *********************************************/
+
+#sobre_mi p {
+    font-weight: 600;
+    text-align: justify;
+    margin: 9% 7%;
+}
+
+
+#yo {
+    max-width: 60%;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+
+#sobre_mi {
+    background-color: #2E2F34;
+    color: white;
+}
+
+#sobre_mi h2 {
+    color: #B6B7BB;
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+#sobre_mi .ui-content h1 {
+    color: #E0A03F;
+    font-size: 60px;
+    margin-top: -15px;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 0px;
+}
+
+#poblete {
+    margin-top: -26px !important;
+}
+
+#sobre_mi {
+    text-align: center;
+}
+
+
+
+/****************************************** CONOCIMIENTOS ******************************************/
+
+
+#conocimientos .ui-listview {
+    padding: 0px !important;
+    box-shadow: none;
+}
+
+
+
+#conocimientos .ui-listview a {
+    background-color: #34353A;
+    color: #E0A03F;
+    border-radius: 15px !important;
+    margin-top: 30px !important;
+    font-size: 18px;
+    border: 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 35px !important;
+}
+
+
+
+#conocimientos .ui-listview img {
+    margin: 18px 20px;
+    width: 100%;
+    font-size: 13px;
+
+
+}
+
+
+
+#conocimientos {
+    background-color: #2E2F34;
+}
+
+#conocimientos h2 {
+    margin-top: 20px;
+    vertical-align: middle !important;
+}
+
+
+
+/******************************************** PORTFOLIO *********************************************/
+
+
+
+#portfolio {
+    background-color: #2E2F34;
+}
+
+
+#portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+
+/******** galeria ********/
+
+
+#portfolio .container {
+    background: transparent;
+    width: 95%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+
+
+.menu ul li {
+    display: table-cell;
+    width: calc(30px * 5);
+
+}
+
+.menu ul {
+    padding: 0;
+    margin: auto;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    margin: 4px;
+    color: white;
+    padding: 10px 2px;
+    text-align: center;
+    border-radius: 50px !important;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+.galeria {
+    width: 100%;
+    padding: 0px;
+    margin-top: 20px;
+    display: flex;
+    ;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+.galeria .box-img {
+    width: calc(100px * 12);
+    margin: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.galeria .box-img img {
+    width: 100%;
+    vertical-align: top;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+
+
+#portfolio .menu .active>a {
+    background-color: #E0A03F !important;
+    border-radius: 50px;
+    color: black;
+
+}
+
+
+#seccion_hobbie {
+
+    background-color: #E0A03F;
+    padding-bottom: 50px;
+
+
+
+}
+
+
+
+#hobbies img {
+    width: 80%;
+    margin: auto;
+}
+
+#contenedor_hobbie {
+    padding-top: 50px !important;
+}
+
+
+#seccion_hobbie h2 {
+    color: white;
+    font-size: 50px;
+    margin-top: -15px;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 0px;
+    text-shadow: none;
+}
+
+#descripcion {
+    margin: 7px 35px;
+    text-align: justify;
+}
+
+
+
+
+
+.texto {
+    margin: 10px;
+    text-align: justify;
+    font-weight: 800;
+
+
+}
+
+.texto h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.info_conocimientos h1 {
+    color: #0943ff;
+    font-weight: 900;
+
+}
+
+
+.info_contacto{
+    display: flex;
+    text-align: center;
+}
+
+.info_contacto a {
+width: 10%;
+padding: 0;
+margin: 0;
+}
+
+
+.info_contacto p {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: 900;
+    font-size: large;
+    color: white;
+    text-shadow: none !important;
+
+
+    }
+
+
+    #contacto {
+        background-color: #34353A;
+    }
+
+path {
+    fill: white !important;
+}
+
+
+
+#mas_info {
+    background-color: #E0A03F;
+    border: 0;
+    margin: auto;
+    width: 50%;
+    margin-top: 40px;
+}
+
+#alumno p{
+    font-weight: 900;
+    text-align: center;
+}
+
+#alumno .ui-header h1{
+    color: rgb(182, 64, 9);
+}

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.css">
+    <script src="jqm/jquery.min.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3Q">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script>
+        $(document).on('ready', function () {
+            $.mobile.defaultPageTransition = "slide";
+            $.mobile.defaultDialogTransition = "slidedown";
+        });
+    </script>
+
+
+
+</head>
+
+
+<!---------------------------------------------------  SOBRE MI  --------------------------------------------------------->
+
+<body>
+    <div data-role="page" id="sobre_mi">
+        <div data-role="header">
+            <h1>SOBRE MI</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <div><img src="images/yo.png" id="yo" alt="retrato julian poblete"></div>
+            <h1 id="julian">Julian</h1>
+            <h1 id="poblete">Poblete</h1>
+            <h2>DISEÑADOR MULTIMEDIAL</h2>
+            <p>¡Hola! Me llamo Julian, soy diseñador multimedial. Soy una persona proactiva, comprometida y detallista
+                con cada trabajo que se me presenta. Me especializo en composición audiovisual, fotografía, videografía,
+                animación 2D&3D, diseño gráfico y música.
+                Busco superarme día a día, aprendo de mis errores y siempre enfocado en lo que viene.</p>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li><a href="#" data-icon="sobremi" class="ui-btn-active ui-state-persist">Sobre Mi</a></li>
+                    <li><a href="#conocimientos" data-icon="conocimientos">Conocimientos</a></li>
+                    <li><a href="#portfolio" data-icon="portfolio">Portfolio</a></li>
+                    <li><a href="#contacto" data-icon="contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!---------------------------------------------------  CONOCIMIENTOS  ----------------------------------------------------->
+
+    <div data-role="page" id="conocimientos">
+        <div data-role="header">
+            <h1>CONOCIMIENTOS</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#edicion">
+                        <img src="images/edicion.png" alt="icono edicion" class="ui-li-thumb">
+                        <h2>EDICION</h2>
+
+                    </a></li>
+                <li><a href="#programacion">
+                        <img src="images/programacion.png" alt="icono programacion" class="ui-li-thumb">
+                        <h2>PROGRAMACION</h2>
+                    </a></li>
+
+                <li><a href="#animacion">
+                        <img src="images/animacion.png" alt="icono animacion" class="ui-li-thumb">
+                        <h2>ANIMACION</h2>
+
+                    </a></li>
+                <li><a href="#fotografia">
+                        <img src="images/fotografia.png" alt="icono fotografia" class="ui-li-thumb">
+                        <h2>FOTOGRAFIA</h2>
+                    </a></li>
+                <li><a href="#modelado">
+                        <img src="images/modelado.png" alt="icono modelado" class="ui-li-thumb">
+                        <h2>MODELADO 3D</h2>
+
+                    </a></li>
+
+            </ul>
+
+
+        </div>
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li><a href="#sobre_mi" data-icon="sobremi">Sobre Mi</a></li>
+                    <li><a href="#" data-icon="conocimientos" class="ui-btn-active ui-state-persist">Conocimientos</a>
+                    </li>
+                    <li><a href="#portfolio" data-icon="portfolio">Portfolio</a></li>
+                    <li><a href="#contacto" data-icon="contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!---------- edicion ---------------->
+
+    <div data-role="page" id="edicion">
+
+
+        <div data-role="header" class="info_conocimientos">
+            <h1>EDICION</h1>
+            <a class="boton_back" href="#conocimientos" data-icon="back" data-iconpos="notext" data-rel="back">back</a>
+        </div>
+
+
+
+
+        <div role="main" class="ui-content">
+            <div class="texto">
+                <p> La edición de vídeo es un proceso por el cual un editor coloca fragmentos de vídeo,
+                    fotografías, gráficos, audio, efectos digitales y cualquier otro material audiovisual en una cinta o
+                    un archivo
+                    informático. El objetivo de la edición es presentar un programa terminado para emitirlo por
+                    televisión,
+                    generar copias para su venta o servir como base para otros más acabados.
+                    <br><br>
+
+                    El término «edición» solía confundirse con la palabra «montaje» por ser actividades parecidas, pero
+                    la
+                    edición se refería únicamente al vídeo y empleaba diferentes medios técnicos a los del montaje
+                    cinematográfico. En el siglo XXI la informatización ha unido los dos procesos.
+
+                    <br><br>
+
+                    En la era digital los tipos de edición se han restringido a cuatro: por corte o A/B roll, on-line y
+                    off-line. Cuando se utilizaba la edición lineal existían otras, pero la edición no lineal con acceso
+                    aleatorio las hizo desaparecer.
+                    <br><br>
+
+                    La evolución de la edición de vídeo ha pasado por varias fases. Inicialmente, 1958, se trató de
+                    imitar
+                    el proceso cinematográfico de cortar y pegar trozos de cinta. El siguiente paso se dio en la década
+                    de
+                    1970 con la edición lineal, empleando dos o más magnetoscopios y muchas veces dos salas con
+                    equipamiento
+                    distinto. En 1988 apareció el primer sistema digital y en 1992 surgió el primero totalmente digital
+                    gracias a las memorias flash y los algoritmos de compresión para vídeo. Ya no existe consenso entre
+                    los
+                    expertos sobre cómo será el futuro. Técnicamente lo ideal quizá sería una unión entre la norma de
+                    cine y
+                    de la televisión, pero intereses de distintos tipos pueden impedirlo.
+                </p>
+
+                <h1>Diferencias entre montaje y edicion</h1>
+
+                <p>En ocasiones pueden aparecer las dos palabras como sinónimos, aun cuando se refieren a procesos
+                    diferentes. Sucede algo similar con los términos cuadro y fotograma o grabación y filmación, que
+                    pueden escucharse indistintamente en los ámbitos de vídeo y cine, cuando son o eran también
+                    distintos. La razón de diferenciar los dos términos es porque cada palabra indica implícitamente los
+                    procesos previos requeridos, el material necesario o la calidad con la que se trabajará.<br><br>
+
+
+                    Imágenes impresas a la misma resolución. El PAL es el segundo cuadro más pequeño. El 35 mm
+                    equivaldría al más grande.
+                    El montaje se realizaba con película de cine, ya fuese de 16 o 35 mm, 70 mm en el caso del IMAX,
+                    pero siempre partiendo de una emulsión fotosensible. Por tanto, se debía recurrir a procesos
+                    químicos para realizar copias o duplicados con los que trabajar, lo que suponía líquidos, grandes
+                    espacios, cámaras oscuras, tiempos de espera...<br><br>
+
+                    La edición es un término propio de los soportes magnéticos, ya sean cintas, memorias flash o discos
+                    duros. Se utiliza material audiovisual grabado electrónicamente para obtener una cinta o un archivo
+                    de computadora. Suele requerir muchos menos procesos y unos costes bastante inferiores a los del
+                    montaje, pero la calidad de la imagen era también inferior, por lo menos hasta la llegada del siglo
+                    XXI.<br><br>
+
+                    La diferencia de resultados que podían lograrse con uno y otro sistema se aprecia mejor al pasar las
+                    imágenes a papel. Si se imprimiese un fotograma de 35 mm a 200 puntos por pulgada, calidad de
+                    impresión habitual para las publicaciones de color, sus más de 2000 líneas de definición permitiría
+                    una ilustración de aproximadamente medio A4. Si se hiciese más grande el ojo humano notaría el
+                    pixelado. Mientras, un cuadro de PAL impreso a la misma calidad sería del tamaño de un sello postal,
+                    sus 576 líneas visibles no darían para más.<br><br>
+
+                    En el siglo XXI se fue produciendo una convergencia de los dos sistemas, que sólo se diferenciaban
+                    por su formato y calidad, no necesariamente por su soporte. Los dos podían ser digitales y manejados
+                    en ocasiones con equipos idénticos.Pero por razones de amortización, coste o preferencias a veces
+                    se continúa recurriendo a medios distintos para el cine y el vídeo.</p>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li><a href="#sobre_mi" data-icon="sobremi">Sobre Mi</a></li>
+                    <li><a href="#" data-icon="conocimientos" class="ui-btn-active ui-state-persist">Conocimientos</a>
+                    </li>
+                    <li><a href="#portfolio" data-icon="portfolio">Portfolio</a></li>
+                    <li><a href="#contacto" data-icon="contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!---------- programacion ---------------->
+
+    <div data-role="page" id="programacion">
+
+
+        <div data-role="header" class="info_conocimientos">
+            <h1>PROGRAMACION</h1>
+            <a class="boton_back" href="#conocimientos" data-icon="back" data-iconpos="notext" data-rel="back">back</a>
+        </div>
+
+
+
+        <div role="main" class="ui-content">
+            <div class="texto">
+                <p>La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora
+                    como realizar algún tipo de tarea. Pero no solo la acción de escribir un código para que la
+                    computadora o el software lo ejecute. Incluye, además, todas las tareas necesarias para que el
+                    código funcione correctamente y cumpla el objetivo para el cual se escribió. <br><br>
+
+                    En la actualidad, la noción de programación se encuentra muy asociada a la creación de aplicaciones
+                    de informática y videojuegos. En este sentido, es el proceso por el cual una persona desarrolla un
+                    programa, valiéndose de una herramienta que le permita escribir el código (el cual puede estar en
+                    uno o varios lenguajes, como C++, Java y Python, entre muchos otros) y de otra que sea capaz de
+                    “traducirlo” a lo que se conoce como lenguaje de máquina, que puede "comprender" el
+                    microprocesador.</p>
+                <h1>Funcionamiento de un programa</h1>
+                <p>Para crear un programa y que la computadora lo interprete y ejecute, las instrucciones deben
+                    escribirse en un lenguaje de programación.<br><br>
+
+                    El lenguaje entendido por una computadora se conoce como código máquina. Consiste en secuencias de
+                    instrucciones básicas que el procesador reconoce, codificadas como cadenas de números 1 y 0 (sistema
+                    binario). En los primeros tiempos de la computación se programaba directamente en código máquina.
+                    Escribir programas así resultaba demasiado complicado, también era difícil entenderlos y mantenerlos
+                    una vez escritos. Con el tiempo, se fueron desarrollando herramientas para facilitar el
+                    trabajo.<br><br>
+
+                    Los primeros científicos que trabajaron en el área decidieron reemplazar las secuencias de unos y
+                    ceros por mnemónicos, que son abreviaturas en inglés de la función que cumple una instrucción de
+                    procesador. Por ejemplo, para sumar se podría usar la letra A de la palabra inglesa add (añadir).
+                    Crearon así una familia de lenguajes de mayor nivel, que se conocen como lenguaje ensamblador o
+                    simplemente ensamblador (en inglés, assembly). Con el tiempo los ensambladores incorporaron
+                    facilidades adicionales, pero siempre manteniendo una correspondencia directa con las instrucciones
+                    de procesador. A nivel conceptual, entonces, programar en ensamblador es muy similar a hacerlo en
+                    lenguaje máquina, solo que de una forma más amigable.<br><br>
+
+                    A medida que la complejidad de las tareas que realizaban las computadoras aumentaba, el lenguaje
+                    ensamblador fue mostrando limitaciones. Para hacer un programa había que conocer en detalle el
+                    funcionamiento de la computadora donde se iba a ejecutar, qué instrucciones proveía y cómo
+                    emplearlas. A veces las instrucciones eran demasiado básicas, por ejemplo podía haber una para sumar
+                    dos números pero no para multiplicar, y entonces era necesario programar un algoritmo que realizara
+                    la multiplicación con base en instrucciones más básicas. Otras veces, la forma de emplear las
+                    instrucciones era engorrosa. Además, si se usaba otro modelo de computadora, en muchos casos había
+                    que reescribir el programa con otras instrucciones. El siguiente paso fue crear los lenguajes de
+                    alto nivel.<br><br>
+
+                    Una vez que se termina de escribir un programa, es necesario de alguna forma traducirlo a lenguaje
+                    máquina, que es lo único que entiende el procesador. Esta tarea es automática, por medio de un
+                    programa adicional que toma el código escrito y lo procesa. Hay distintos enfoques para este
+                    procesamiento. El enfoque clásico se llama compilación: el programa toma el código en un lenguaje y
+                    genera código en el otro; al programa traductor se lo llama compilador. En general se habla de
+                    compilación y compiladores cuando el lenguaje de origen es de alto nivel; si la traducción es desde
+                    lenguaje ensamblador, se llama ensamblado y el programa se llama ensamblador (hay que distinguir el
+                    lenguaje ensamblador del programa ensamblador; en inglés es más claro, son assembly language y
+                    assembler respectivamente).Generalmente existe una fase posterior a la compilación denominada
+                    enlace o enlazado (linking en inglés). Los programas pueden escribirse en partes separadas y además
+                    pueden usar recursos provistos por bibliotecas. El enlazado, realizado por un programa llamado
+                    enlazador, combina todos los componentes y así genera un programa ejecutable completo.<br><br>
+
+                    En algunos lenguajes de programación, puede usarse un enfoque diferente que no requiera compilación
+                    y enlace: un programa llamado intérprete va leyendo el código y realizando en el momento las
+                    acciones que haría el programa. Se evita generar código separado y la experiencia es que se está
+                    ejecutando el código en el lenguaje de alto nivel, a pesar de que el procesador no lo entienda de
+                    forma nativa.</p>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li><a href="#sobre_mi" data-icon="sobremi">Sobre Mi</a></li>
+                    <li><a href="#" data-icon="conocimientos" class="ui-btn-active ui-state-persist">Conocimientos</a>
+                    </li>
+                    <li><a href="#portfolio" data-icon="portfolio">Portfolio</a></li>
+                    <li><a href="#contacto" data-icon="contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!---------- animacion ---------------->
+
+    <div data-role="page" id="animacion">
+
+
+        <div data-role="header" class="info_conocimientos">
+            <h1>ANIMACION</h1>
+            <a class="boton_back" href="#conocimientos" data-icon="back" data-iconpos="notext" data-rel="back">back</a>
+        </div>
+
+
+
+
+        <div role="main" class="ui-content">
+            <div class="texto">
+                <p>La animación es un proceso, utilizado por uno o más animadores, para dar la ilusión de movimiento a
+                    imágenes, dibujos u otro tipo de objetos inanimados (figuras de plastilina, por ejemplo). Se
+                    considera, normalmente, una ilusión óptica. Existen numerosas técnicas para realizar una animación
+                    que van más allá de los familiares dibujos animados. <br><br>
+
+                    Los cuadros se pueden generar dibujando, pintando o fotografiando los minúsculos cambios hechos
+                    repetidamente a un modelo de la realidad o a un modelo tridimensional virtual; también es posible
+                    animar objetos reales y actores. Entre los formatos de archivo de animación (o que soportan
+                    animación) se encuentran el GIF, el SVG, etc. Las animaciones en GIF son guardadas imagen por
+                    imagen; sin embargo, existen animaciones que no se logran así, sino que son interpretadas y
+                    "armadas" en tiempo real al ejecutarse, como el SVG.</p>
+
+                <h1>Principios de la animación</h1>
+                <p>Esta sección es un extracto de Doce principios (animación).[editar]
+                    Los Doce Principios básicos de la animación de Disney son un conjunto de principios dados a conocer
+                    por los animadores de Disney Ollie Johnston y Frank Thomas en su libro The illusion of life: Disney
+                    Animation. Johnston y Thomas a su vez basaron este libro en el trabajo de los animadores líder de
+                    Disney de 1930 en adelante, quienes se esforzaron por crear animaciones cada vez más realistas. El
+                    objetivo inicial de estos principios era crear la ilusión de que los personajes se apegaban a las
+                    leyes de la física, pero también se abarcaban temas más complejos como el tempo emocional y el
+                    atractivo del personaje.<br><br>
+
+                    Este libro y algunos de sus principios han sido adoptados por estudios de animación tradicional,
+                    algunos se refieren a él como "La biblia de la animación. En 1999 el libro fue votado como número
+                    uno en una encuesta en línea bajo la categoría "Los mejores libros de animación de todos los
+                    tiempos. Aunque inicialmente se pretendía que estos principios se aplicaran a la animación
+                    tradicional o animación dibujada a mano, estos aún tienen gran relevancia en la hoy predominante
+                    animación por ordenador.</p>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li><a href="#sobre_mi" data-icon="sobremi">Sobre Mi</a></li>
+                    <li><a href="#" data-icon="conocimientos" class="ui-btn-active ui-state-persist">Conocimientos</a>
+                    </li>
+                    <li><a href="#portfolio" data-icon="portfolio">Portfolio</a></li>
+                    <li><a href="#contacto" data-icon="contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!---------- fotografia ---------------->
+
+    <div data-role="page" id="fotografia">
+
+
+        <div data-role="header" class="info_conocimientos">
+            <h1>FOTOGRAFIA</h1>
+            <a class="boton_back" href="#conocimientos" data-icon="back" data-iconpos="notext" data-rel="back">back</a>
+        </div>
+
+
+
+
+        <div role="main" class="ui-content">
+            <div class="texto">
+                <p>La fotografía (de foto- y -grafía) es el arte y la técnica de obtener imágenes duraderas debido a
+                    la acción de la luz. Es el proceso de proyectar imágenes, capturarlas y plasmarlas bien por medio
+                    del fijado en un medio sensible a la luz o por la conversión en señales electrónicas. Basándose en
+                    el principio de la cámara oscura, se proyecta una imagen captada por un pequeño agujero sobre una
+                    superficie, de tal forma que el tamaño de la imagen queda reducido. Para capturar y guardar esta
+                    imagen, las cámaras fotográficas utilizan película sensible para la fotografía química, mientras que
+                    en la fotografía digital se emplean sensores tipo CCD, CMOS, etc.; que graban luego las imágenes en
+                    memorias digitales. El término fotografía sirve para denominar tanto al conjunto del proceso de
+                    obtención de esas imágenes como a su resultado: las propias imágenes obtenidas o «fotografías».</p>
+                <h1>Etimología</h1>
+                <p>El término «fotografía» proviene del griego φῶς phōs (raíz φωτ- phōt, ‘luz’), y γράφω grafo (raíz
+                    γράφ- graf, ‘rayar, dibujar, escribir’) que, en conjunto, significa ‘escribir/grabar con la luz’.
+                    <br><br>
+
+                    Varias personas pueden haber acuñado el mismo término nuevo a partir de estas raíces de forma
+                    independiente. Hércules Florence, un pintor e inventor francés que vivió en Campinas, Brasil,
+                    utilizó la forma francesa de la palabra, fotografía, en notas privadas que un historiador brasileño
+                    cree que fueron escritas en 1834.Esta afirmación está ampliamente difundida, pero todavía no se
+                    reconoce en gran medida a nivel internacional. El primer uso de la palabra por el inventor
+                    franco-brasileño se dio a conocer ampliamente después de la investigación de Boris Kossoy en
+                    1980.<br><br>
+
+                    El periódico alemán Vossische Zeitung de 25 de febrero de 1839 contenía un artículo titulado
+                    Photographie, en el que se examinaban varias reivindicaciones de prioridad, en especial la de Henry
+                    Fox Talbot, en relación con la reivindicación de invención de Daguerre. El artículo es la primera
+                    aparición conocida de la palabra en la prensa pública. Estaba firmado "J.M.", se cree que era el
+                    astrónomo berlinés Johann von Maedler. También se atribuye al astrónomo John Herschel el haber
+                    acuñado la palabra, independientemente de Talbot, en 1839. No obstante, Joan Fontcuberta en su
+                    libro El beso de Judas (1997), ha demostrado que Henry Fox Talbot no conocía el griego lo
+                    suficiente para poder entender que fotografía significa más bien «escritura aparente» y que en
+                    realidad no significa escribir con luz, sino «escritura de las apariencias».<br><br>
+
+                    Los inventores Joseph Nicéphore Niépce, Henry Fox Talbot y Louis Daguerre no parecen haber conocido
+                    o utilizado la palabra «fotografía», sino que se refirieron a sus procedimientos como «heliografía»
+                    (Niépce), «calotipo» (Talbot) y «daguerrotipo» (Daguerre).
+                </p>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li><a href="#sobre_mi" data-icon="sobremi">Sobre Mi</a></li>
+                    <li><a href="#" data-icon="conocimientos" class="ui-btn-active ui-state-persist">Conocimientos</a>
+                    </li>
+                    <li><a href="#portfolio" data-icon="portfolio">Portfolio</a></li>
+                    <li><a href="#contacto" data-icon="contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!---------- modelado3d ---------------->
+
+    <div data-role="page" id="modelado">
+
+
+        <div data-role="header" class="info_conocimientos">
+            <h1>MODELADO 3D</h1>
+            <a class="boton_back" href="#conocimientos" data-icon="back" data-iconpos="notext" data-rel="back">back</a>
+        </div>
+
+
+
+
+        <div role="main" class="ui-content">
+            <div class="texto">
+                <p>El modelado 3D es el proceso de desarrollo de una representación matemática de cualquier objeto
+                    tridimensional (ya sea inanimado o vivo) a través de un software especializado. Al producto se le
+                    llama modelo 3D. Se puede visualizar como una imagen bidimensional mediante un proceso llamado
+                    renderizado 3D o utilizar en una simulación por computadora de fenómenos físicos. El modelo también
+                    se puede crear físicamente usando dispositivos de impresión 3D. <br><br>
+
+                    Los modelos pueden ser creados automática o manualmente. El proceso manual de preparar la
+                    información geométrica para los gráficos 3D es similar al de las artes plásticas y la
+                    escultura.<br><br>
+
+                    El software de modelado 3D es un tipo de software de gráficos 3D utilizado para producir modelos
+                    tridimensionales. Los programas individuales de este tipo son llamados «Aplicaciones de modelado» o
+                    «modeladores».</p>
+
+                <h1>Modelos</h1>
+                <p>Los modelos 3D representan un objeto tridimensional usando una colección de puntos en el espacio
+                    dentro de un espacio 3D, conectados por varias entidades geométricas tales como triángulos, líneas,
+                    superficies curvas, etc. Siendo una colección de datos (puntos y otro tipo de información), los
+                    modelos 3D pueden ser hechos a mano, a través de algoritmos o bien escaneados.<br><br>
+
+                    Los modelos 3D son ampliamente usados en gráficos 3D. De hecho, su uso pre-data se extiende al uso
+                    de gráficos 3D en ordenadores. Algunos videojuegos usan imágenes pre-renderizadas de modelos 3D como
+                    sprites antes de que los ordenadores pudieran renderizarlas en tiempo real.<br><br>
+
+                    Hoy en día, los modelos 3D son usados en una amplia variedad de campos. La industria médica usa
+                    modelos detallados de órganos; esto puede ser creado con múltiples partes de imágenes 2-D de un MRI
+                    o escáner CT. La industria del cine lo usa como personajes y objetos para la animación o la realidad
+                    motion pictures. La industria de los videojuegos video game industry los utiliza como recurso para
+                    videojuegos. El sector científico los utiliza como modelos altamente detallados de componentes
+                    químicos. La industria de la arquitectura los utiliza para demostrar las propuestas de edificios y
+                    panoramas a través de Software Architectural Models. La comunidad ingeniera lo utiliza para diseños
+                    de nuevos artefactos, vehículos y estructuras así como portador de otros usos. En décadas recientes
+                    la comunidad de las ciencias de la tierra ha empezado a construir modelos geológicos 3D como una
+                    práctica estándar. Los modelos 3D también pueden ser la base para los aparatos físicos que son
+                    construidos con impresoras 3D o CNC machines.</p>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li><a href="#sobre_mi" data-icon="sobremi">Sobre Mi</a></li>
+                    <li><a href="#" data-icon="conocimientos" class="ui-btn-active ui-state-persist">Conocimientos</a>
+                    </li>
+                    <li><a href="#portfolio" data-icon="portfolio">Portfolio</a></li>
+                    <li><a href="#contacto" data-icon="contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!---------------------------------------------------  PORTFOLIO  --------------------------------------------------------->
+
+    <div data-role="page" id="portfolio">
+        <div data-role="header">
+            <h1>MIS TRABAJOS</h1>
+        </div>
+        <div role="main" class="ui-content row">
+
+
+            <div class="container">
+                <div class="menu">
+                    <ul>
+                        <li class="todos active"><a href="#" class="btn-menu" data-filter="todos">Todos</a></li>
+                        <li class="fotografia"><a href="#" class="btn-menu" data-filter="fotografia">Fotografia</a></li>
+                        <li class="edicion"><a href="#" class="btn-menu" data-filter="edicion">Edicion</a></li>
+                        <li class="ilustracion"><a href="#" class="btn-menu" data-filter="ilustracion">Ilustracion</a>
+                        </li>
+                        <li class="modelado3d"><a href="#" class="btn-menu" data-filter="modelado3d">3D</a></li>
+                    </ul>
+                </div>
+
+                <div class="galeria">
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria1.jpg" alt="">
+                    </div>
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria2.jpg" alt="">
+                    </div>
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria3.jpg" alt="">
+                    </div>
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria4.jpg" alt="">
+                    </div>
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria5.jpg" alt="">
+                    </div>
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria6jpg" alt="">
+                    </div>
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria7.jpg" alt="">
+                    </div>
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria8.jpg" alt="">
+                    </div>
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria9.jpg" alt="">
+                    </div>
+
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria10.jpg" alt="">
+                    </div>
+
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria11.jpg" alt="">
+                    </div>
+
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria12.jpg" alt="">
+                    </div>
+
+
+                    <div class="box-img fotografia">
+                        <img src="images/galeria13.jpg" alt="">
+                    </div>
+
+
+
+                    <div class="box-img edicion">
+                        <img src="images/galeria14.jpg" alt="">
+                    </div>
+
+                    <div class="box-img edicion">
+                        <img src="images/galeria15.jpg" alt="">
+                    </div>
+
+
+                    <div class="box-img modelado3d">
+                        <img src="images/galeria16.jpg" alt="">
+                    </div>
+
+
+                    <div class="box-img modelado3d">
+                        <img src="images/galeria17.jpg" alt="">
+                    </div>
+
+
+                    <div class="box-img modelado3d">
+                        <img src="images/galeria18.jpg" alt="">
+                    </div>
+
+                    <div class="box-img ilustracion">
+                        <img src="images/galeria19.png" alt="">
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+            <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+                <div data-role="navbar" class="nav-glyphish-example">
+                    <ul>
+                        <li><a href="#sobre_mi" data-icon="sobremi">Sobre Mi</a></li>
+                        <li><a href="#conocimientos" data-icon="conocimientos">Conocimientos</a></li>
+                        <li><a href="#" data-icon="portfolio" class="ui-btn-active ui-state-persist">Portfolio</a></li>
+                        <li><a href="#contacto" data-icon="contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------------------------------------  CONTACTO  --------------------------------------------------------->
+    <div data-role="page" id="contacto">
+        <div data-role="header">
+            <h1>CONTACTAME</h1>
+        </div>
+
+
+
+        <div role="main" class="ui-content row">
+        <div>
+            <p>BUENOS AIRES, ARGENTINA, CABA</p>
+        </div>
+
+        <div class="info_contacto">
+            <a href="https://api.whatsapp.com/send/?phone=%2B5411234567&text&type=phone_number&app_absent=0"><img src="images/whatsapp.svg" alt=""></a>
+            <p>+541148325496</p>
+        </div>
+
+
+        <div class="info_contacto">
+            <a href="mailto:julian.poblete@davinci.edu.ar"><img src="images/mail.svg" alt=""></a>
+            <p>julian.poblete@davinci.edu.ar</p>
+        </div>
+
+
+
+
+        <a href="#alumno" id="mas_info" data-role="button" data-rel="dialog">MAS INFORMACION</a>
+
+
+        </div>
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish-example">
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li><a href="#sobre_mi" data-icon="sobremi">Sobre Mi</a></li>
+                    <li><a href="#conocimientos" data-icon="conocimientos">Conocimientos</a></li>
+                    <li><a href="#portfolio" data-icon="portfolio">Portfolio</a></li>
+                    <li><a href="#" data-icon="contacto" class="ui-btn-active ui-state-persist">Contacto</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!--------------  alumno  --------------------------------------------------------->
+    <div data-role="dialog" id="alumno">
+        <div data-role="header">
+            <h1>MAS INFORMACION</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+
+            <p>JULIAN POBLETE</p>
+            <P>CARRERA DISEÑO MULTIMEDIAL</P>
+            <P>CURSO DMN5AV</P>
+            <P>AÑO 2022</P>
+            <P>TURNO NOCHE</P>
+        
+
+
+
+        </div>
+
+        
+
+    
+
+
+
+        
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsX"></script>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/filtro.js"></script>
+
+
+</body>
+
+</html>
